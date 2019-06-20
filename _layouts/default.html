@@ -17,7 +17,7 @@
   <body>
       <header>
         <h1 font-size=5em>{{ site.title | default: site.github.repository_name }}</h1>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <p>Vote Now on Your Phones!</p>
       </header>
 
       <div id="banner">
@@ -25,11 +25,11 @@
       </div><!-- end banner -->
 
     <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
+
       <section>
-        {{ content }}
+        <form action="./landing">
+            <input type="submit" value="Devin Chu" />
+        </form>
 
       </section>
       <footer>
